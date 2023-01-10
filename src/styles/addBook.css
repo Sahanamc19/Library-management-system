@@ -1,0 +1,26 @@
+.addBook {
+    text-align: center;
+    background-color: white;
+    margin:0px 400px;
+    box-shadow: 1px 2px 1px 1px;
+}
+/* .addBook h1{
+    margin: 0px;
+} */
+.formbook input{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 400px;
+}.formbook button{
+    border-radius: 4px;
+    border: 1px solid orange;
+    height: 30px;
+    width: 100px;
+    color: orange;
+    background-color: white;
+}
+.formbook button:hover{
+    border: none;
+    background-color: orange;
+    color: white;
+}

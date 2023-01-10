@@ -1,0 +1,30 @@
+
+.userList{
+    background-color: gainsboro;
+    text-align: center;
+}
+.user{
+    display: inline-table;
+    border: 1px solid black;
+    margin: 10px 23px;
+    height: 200px;
+    width: 20%;
+
+}
+.userList h1{
+    text-align: center;
+    margin: 0;
+}
+.user button{
+    background-color: white;
+    border:1px solid orange;
+    color: black ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 20px;
+    width: 80px;
+}
+.user button:hover{
+    color: black;
+    background-color: orange;
+}

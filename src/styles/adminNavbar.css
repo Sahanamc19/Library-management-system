@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.title{
+    color: black;
+
+}
+.navbar{
+    background-color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.links li{
+    display: inline-block;
+    margin-left: 10px;
+    /* background-color: white; */
+    padding-right: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.links a:hover{
+    color: white;
+}
+.selectLoginType{
+    text-align: center  ;
+}

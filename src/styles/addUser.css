@@ -1,0 +1,27 @@
+.addUser{
+    background-color: white;
+    text-align: center;
+    margin:0px 400px;
+    box-shadow: 5px 5px 5px 5px;
+    height: 350px;
+}
+.form-add{
+    margin-top: 20px;
+}
+.form-add input{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 400px;
+}
+.form-add button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: orange;
+    border: 3px;
+    border: 1px solid orange;
+}
+.form-add button:hover{
+    background-color: orange;
+    color: white;
+}
