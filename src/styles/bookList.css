@@ -33,11 +33,16 @@
     color: black;
     border: 2px solid rgb(211, 188, 129);
     height: 35px;
-    width: 80px;
+    width: 100px;
     font-weight: bold;
     border-radius: 2px;
+    margin-right: 5px;
 }
 .book .details button:hover{
     background-color: rgb(211, 188, 129);
     border: 1px solid black;
+}
+.details .btn6 button{
+    margin-right: 20px;
+    
 }

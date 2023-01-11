@@ -1,5 +1,7 @@
+import '../styles/readbook.css'
 import { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";
+
 const ReadBook = () => {
     let[book,setbooks]=useState([])
     //  to get route parameter
@@ -14,9 +16,9 @@ const ReadBook = () => {
 
     },[])
     return (  
-        <div className="readbook">
-            <h1>Read Book</h1>
-            <h2>{book.title}</h2>
+        <div className="read">
+            <h1>{book.title}</h1>
+            <hr />
             <p>{book.shortDescription}</p>
             <p>{book.longDescription}</p>
         </div>
